@@ -1,3 +1,5 @@
+package ru.sbt;
+
 public class Person {
     private final boolean man;
     private final String name;
@@ -13,6 +15,7 @@ public class Person {
      */
     public boolean divorce() {
         if (spouse != null) {
+            spouse.spouse = null;
             spouse = null;
             return true;
         }
@@ -34,13 +37,13 @@ public class Person {
                     return false;
                 }
                 else{
-                        this.spouse.divorce();
-                        this.divorce();
-                        person.spouse.divorce();
-                        person.divorce();
+                    this.spouse.divorce();
+                    this.divorce();
+                    person.spouse.divorce();
+                    person.divorce();
 
-                        this.marry(person);//then marry
-                    }
+                    this.marry(person);//then marry
+                }
             }
             else{//not married
                 this.spouse = person;
@@ -52,5 +55,9 @@ public class Person {
             return false;
         }
         return true;
+    }
+
+    public Person getSpouse() {
+        return spouse;
     }
 }
