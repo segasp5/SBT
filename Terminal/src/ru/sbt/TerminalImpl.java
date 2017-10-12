@@ -26,6 +26,7 @@ public class TerminalImpl implements Terminal {
         }
         if (pinValidator.validatePin(pin)) {
             pinIsEntered = true;
+            numberOfWrongPins = 0;
             return true;
         }
 
