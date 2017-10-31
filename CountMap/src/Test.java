@@ -24,5 +24,23 @@ public class Test {
 
         System.out.println(map.remove("qwerty"));//2
         System.out.println(map.size());//1
+
+        map.add("xyz");
+        map.add("das Wort");
+
+        Map<String, Integer> map3 = new HashMap<>();
+
+        map.toMap(map3);
+        System.out.println("map3:");
+        for (String key : map3.keySet()) {
+            System.out.println(key);
+        }
+
+        map.add("neues Wort");
+
+        System.out.println("\nmap3 again:");
+        for (String key : map3.keySet()) {
+            System.out.println(key);
+        }
     }
 }

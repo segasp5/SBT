@@ -6,7 +6,7 @@ import java.util.Map;
  */
 public class CountMapImpl<K> implements CountMap<K> {
 
-    Map<K, Integer> m = new HashMap<>();
+    private Map<K, Integer> m = new HashMap<>();
 
     @Override
     public void add(K o) {
@@ -61,8 +61,9 @@ public class CountMapImpl<K> implements CountMap<K> {
 
     @Override
     public void toMap(Map destination) {
+        //destination = this.m;
+        //destination = new HashMap(this.m);
         //destination = this.toMap();
-        //destination = m;
 
         for (K key : m.keySet()) {
             destination.put(key, m.get(key));
