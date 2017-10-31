@@ -1,3 +1,4 @@
+//Exceptions (hw 05)
 package ru.sbt;
 
 import ru.sbt.myExceptions.LockedException;
