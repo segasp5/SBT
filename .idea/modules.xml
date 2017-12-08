@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ACM_2056_Popular word/ACM_2056_Popular word.iml" filepath="$PROJECT_DIR$/ACM_2056_Popular word/ACM_2056_Popular word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ACM_2057_Struct/ACM_2057_Struct.iml" filepath="$PROJECT_DIR$/ACM_2057_Struct/ACM_2057_Struct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeanUtils/BeanUtils.iml" filepath="$PROJECT_DIR$/BeanUtils/BeanUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionUtils/CollectionUtils.iml" filepath="$PROJECT_DIR$/CollectionUtils/CollectionUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CountMap/CountMap.iml" filepath="$PROJECT_DIR$/CountMap/CountMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/New/New.iml" filepath="$PROJECT_DIR$/New/New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Person/Person.iml" filepath="$PROJECT_DIR$/Person/Person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SBT.iml" filepath="$PROJECT_DIR$/SBT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Terminal/Terminal.iml" filepath="$PROJECT_DIR$/Terminal/Terminal.iml" />
+    </modules>
+  </component>
+</project>
